@@ -1,0 +1,14 @@
+export const snapshot = {};
+
+snapshot[`should keep slot attrs, contents and position in the HTML (head or body) 1`] = `
+'<html><head>
+    <title>My website</title>
+    <slot name="my-styles"><style>* { color: inherit; }</style></slot>
+  </head>
+  <body>
+    <slot>My default content</slot>
+    <slot name="my-js"></slot>
+  
+
+</body></html>'
+`;

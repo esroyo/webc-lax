@@ -1,0 +1,31 @@
+export const snapshot = {};
+
+snapshot[`should replace slots contents and keep the positions in the document (head or body) 1`] = `
+'<!doctype html>
+<html>
+<head>
+    <title>My website</title>
+    <style>* { color: red; }</style>
+  </head>
+  <body>
+    <script>console.log("Hello world!");</script>
+  
+
+</body>
+</html>'
+`;
+
+snapshot[`should replace slot contents if provided or use the default contents 1`] = `
+'<!doctype html>
+<html>
+<head>
+    <title>My website</title>
+  </head>
+  <body>
+    <script>console.log("Hello world!");</script>
+    <style>p { color: blue }</style>
+  
+
+</body>
+</html>'
+`;
