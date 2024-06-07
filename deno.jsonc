@@ -1,7 +1,7 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "name": "@esroyo/webc-lax",
-  "exports": "./mod.js",
+  "exports": "./mod.ts",
   "tasks": {
     "bundle": "bash bundle.sh",
     "coverage": "rm -rf coverage && deno task test --reporter=dot --coverage=coverage && deno coverage --lcov --output=coverage.lcov coverage && genhtml -o coverage/report coverage.lcov",
@@ -23,6 +23,7 @@
   },
   "publish": {
     "include": [
+      "mod.ts",
       "dist/",
       "CHANGELOG.md",
       "README.md",

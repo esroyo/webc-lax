@@ -1,4 +1,5 @@
-import { parse5 } from './index.ts';
+//import { parse5 } from './index.ts';
+import { parse5 } from '../mod.ts';
 import { assertSnapshot } from '@std/testing/snapshot';
 
 Deno.test('should keep slot attrs, contents and position in the HTML (head or body)', async (t) => {

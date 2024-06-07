@@ -1,4 +1,5 @@
-import { parse5, WebC } from './index.ts';
+//import { parse5, WebC } from './index.ts';
+import { parse5, WebC } from '../mod.ts';
 import { assertSnapshot } from '@std/testing/snapshot';
 
 Deno.test('should replace slots contents and keep the positions in the document (head or body)', async (t) => {
