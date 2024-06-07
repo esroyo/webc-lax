@@ -20,5 +20,13 @@
     "@11ty/webc": "npm:@11ty/webc@0.11.4",
     "@std/testing": "jsr:@std/testing@0.224.0",
     "parse5": "npm:parse5@7.1.2"
+  },
+  "publish": {
+    "include": [
+      "dist/",
+      "CHANGELOG.md",
+      "README.md",
+      "deno.jsonc"
+    ]
   }
 }
