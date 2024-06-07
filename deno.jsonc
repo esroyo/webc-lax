@@ -1,7 +1,7 @@
 {
   "version": "1.0.2",
   "name": "@esroyo/webc-lax",
-  "exports": "./dist/index.js",
+  "exports": "./mod.js",
   "tasks": {
     "bundle": "bash bundle.sh",
     "coverage": "rm -rf coverage && deno task test --reporter=dot --coverage=coverage && deno coverage --lcov --output=coverage.lcov coverage && genhtml -o coverage/report coverage.lcov",
