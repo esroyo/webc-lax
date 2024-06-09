@@ -9,6 +9,7 @@
       "jsr:@std/path@^0.224.0": "jsr:@std/path@0.224.0",
       "jsr:@std/testing@0.224.0": "jsr:@std/testing@0.224.0",
       "npm:@11ty/webc@0.11.4": "npm:@11ty/webc@0.11.4",
+      "npm:@types/node": "npm:@types/node@18.16.19",
       "npm:parse5@7.1.2": "npm:parse5@7.1.2"
     },
     "jsr": {
@@ -81,6 +82,10 @@
           "@nodelib/fs.scandir": "@nodelib/fs.scandir@2.1.5",
           "fastq": "fastq@1.17.1"
         }
+      },
+      "@types/node@18.16.19": {
+        "integrity": "sha512-IXl7o+R9iti9eBW4Wg2hx1xQDig183jj7YLn8F7udNceyfkbn1ZxmzZXuak20gR40D7pIkIY1kYGx5VIGbaHKA==",
+        "dependencies": {}
       },
       "acorn-walk@8.3.2": {
         "integrity": "sha512-cjkyv4OtNCIeqhHrfS81QWXoCBPExR/J62oyEqepVw8WaQeSqpW2uhuLPh1m9eWhDuOo/jUXVTlifvesOWp/4A==",

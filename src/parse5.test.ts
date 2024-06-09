@@ -5,7 +5,7 @@ import { assertSnapshot } from '@std/testing/snapshot';
 Deno.test('should keep slot attrs, contents and position in the HTML (head or body)', async (t) => {
     const parsed = parse5.parse(`<html>
   <head>
-    <title>My website</title>
+    <custom-title>My website</custom-title>
     <slot name="my-styles"><style>* { color: inherit; }</style></slot>
   </head>
   <body>
