@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.1.0](https://github.com/esroyo/webc-lax/compare/v1.0.5...v1.1.0) (2024-06-15)
+
+
+### Features
+
+* use a webc version that allows defineComponents literals ([b583aad](https://github.com/esroyo/webc-lax/commit/b583aad793546f3495676d2c34d1c1c6d8d3b960))
+
 ## [1.0.5](https://github.com/esroyo/webc-lax/compare/v1.0.4...v1.0.5) (2024-06-09)
 
 
