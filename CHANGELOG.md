@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.1.1](https://github.com/esroyo/webc-lax/compare/v1.1.0...v1.1.1) (2024-06-15)
+
+
+### Bug Fixes
+
+* bump webc version ([42cb5bc](https://github.com/esroyo/webc-lax/commit/42cb5bc8fec72aae12d049562dda50beb07cfd23))
+
 ## [1.1.0](https://github.com/esroyo/webc-lax/compare/v1.0.5...v1.1.0) (2024-06-15)
 
 
