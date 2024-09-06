@@ -26,6 +26,7 @@
       "mod.ts",
       "dist/",
       "CHANGELOG.md",
+      "LICENSE",
       "README.md",
       "deno.jsonc"
     ]
