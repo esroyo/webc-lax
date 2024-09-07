@@ -4,7 +4,7 @@
   "exports": "./mod.ts",
   "tasks": {
     "bundle": "bash bundle.sh",
-    "coverage": "rm -rf coverage && deno task test --reporter=dot --coverage=coverage && deno coverage --lcov --output=coverage.lcov coverage && genhtml --ignore-errors range,range -o coverage/report coverage.lcov",
+    "coverage": "rm -rf coverage && deno task test --reporter=dot --coverage=coverage && deno coverage --lcov --output=coverage.lcov coverage && genhtml --ignore-errors unmapped -o coverage/report coverage.lcov",
     "fmt": "deno fmt src/",
     "tag-version": "deno run -A npm:commit-and-tag-version && git push --follow-tags origin main",
     "test": "deno test --allow-env --allow-read --allow-write --allow-sys"
