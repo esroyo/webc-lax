@@ -8,6 +8,7 @@
       "npm:@rollup/plugin-node-resolve@^15.2.3": "npm:@rollup/plugin-node-resolve@15.2.3_rollup@4.21.2",
       "npm:@types/node": "npm:@types/node@18.16.19",
       "npm:@types/node@^22.5.4": "npm:@types/node@22.5.4",
+      "npm:commit-and-tag-version": "npm:commit-and-tag-version@12.4.2",
       "npm:commit-and-tag-version@^12.4.2": "npm:commit-and-tag-version@12.4.2",
       "npm:esbuild@^0.21.4": "npm:esbuild@0.21.5",
       "npm:lodash-es@^4.17.21": "npm:lodash-es@4.17.21",
