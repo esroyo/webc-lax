@@ -13,13 +13,10 @@
     "indentWidth": 4,
     "singleQuote": true
   },
+  // Note: must use "npm i" because Deno does not support "github:" specifiers
+  "nodeModulesDir": true,
   "compilerOptions": {
     "experimentalDecorators": false
-  },
-  "imports": {
-    "@11ty/webc": "npm:@11ty/webc@0.11.4",
-    "@std/testing": "jsr:@std/testing@0.224.0",
-    "parse5": "npm:parse5@7.1.2"
   },
   "publish": {
     "include": [
